@@ -1,0 +1,63 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.textwrp>h1{
+    padding: 10px 0;
+    font-size: 40px;
+}
+.babysWrp{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.babysWrp>div{
+    cursor: pointer;
+    position: relative;
+}
+
+.babysWrp>div:hover{
+border: 1px solid #d1d1d1;
+}
+.babyPeeing1{
+    width: 320px;
+    display: none;
+    position: absolute;
+    transform: translateY(-190px);
+    left: 80px;
+}
+
+.babyPeeing2{
+    width: 320px;
+    display: none;
+    position: absolute;
+    transform: translateY(-90px);
+    left: 0px;
+    z-index: 1;
+}
+
+.babyPeeing3{
+    width: 320px;
+    display: none;
+    position: absolute;
+    transform: translateY(-140px);
+    z-index: 1;
+    left: 60px;
+}
+
+.babyPeeing4{
+    width: 320px;
+    display: none;
+    position: absolute;
+    transform: translateY(-130px);
+    left: 70px;
+    
+}
